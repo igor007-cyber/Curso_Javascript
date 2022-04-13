@@ -1,3 +1,6 @@
+
+// AULA DE STRINGS
+
 let umaString = "um texto"
 console.log(umaString)
 console.log(umaString[0])
@@ -21,6 +24,5 @@ console.log(outraString.substring(outraString.length - 5, outraString.length - 1
 console.log(outraString.split(' ', 2))
 console.log(outraString.toUpperCase()) //tudo maiuculo
 console.log(outraString.toLowerCase()) //tudo minusculo
-
 
 
