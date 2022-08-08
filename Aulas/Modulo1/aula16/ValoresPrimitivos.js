@@ -25,3 +25,8 @@ const x = {
     nome: 'igor',
     sobrenome: 'ramalho'
 }
+
+const y = {...x} // aqui foi só copiado
+x.nome = 'Ian'
+console.log(x)
+console.log(y)
